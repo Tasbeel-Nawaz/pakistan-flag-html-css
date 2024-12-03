@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(42, 215, 228);
+}
+
+.flag {
+    display: flex;
+    height: 450px;
+    width: 300px;
+    position: relative;
+}
+
+.stand {
+    background-color: brown;
+    height: 70%;
+    width: 20px;
+    position: relative;
+}
+
+.white {
+    height: 28%;
+    width: 90px;
+    background-color: white;
+}
+
+.green {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-color: rgb(12, 214, 12);
+    height: 28%;
+    width: 200px;
+}
+
+.green img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+}
+
+.box1 {
+    position: absolute;
+    top: 70%; /* Positions it below the .stand element */
+    left: -35px; /* Aligns it with the left of .stand */
+    width: 90px; /* Matches the width of the .stand */
+    height: 50px; /* Height of the .box1 element */
+    background-color: rgb(66, 21, 21);
+}
